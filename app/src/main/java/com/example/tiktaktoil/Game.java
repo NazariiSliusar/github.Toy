@@ -17,8 +17,8 @@ public class Game {
 
 
 
-    public Game(){
-        field = new Square[3][3];
+    public Game(int squareSize){
+        field = new Square[squareSize][squareSize];
 
         for (int i = 0, l = field.length; i< l; i++){
             for (int j =0 , l2 = field[i].length; j < l2;j++){
